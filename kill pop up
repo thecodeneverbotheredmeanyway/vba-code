@@ -1,1 +1,5 @@
-Sub ActivateSheetB()      Application.EnableEvents = False      Application.ScreenUpdating = False     Application.Calculation = xlCalculationManual     Sheets("SheetB").Activate  End Sub
+Sub ActivateSheetB()
+Application.EnableEvents = False     
+Application.ScreenUpdating = False     
+Application.Calculation = xlCalculationManual    
+Sheets("SheetB").Activate  End Sub
